@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'https://fastflow-backend-production.up.railway.app/api/v1'
+const API = '/api/v1'
 
 async function api(endpoint, options = {}, token = null) {
   const headers = { 'Content-Type': 'application/json' }
